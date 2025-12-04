@@ -9,6 +9,7 @@ export default function Chatbrutichat() {
 
     return (
         <>
+        <div className='supp'>
             <div className="card">
                 <div className="mac-header">
                     <span className="red"></span>
@@ -51,6 +52,7 @@ export default function Chatbrutichat() {
                     </button>
                 </div>
             </div>
+        </div>
         </>
     )
 }
