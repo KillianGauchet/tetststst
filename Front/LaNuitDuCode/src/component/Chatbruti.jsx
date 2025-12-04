@@ -1,6 +1,6 @@
 import { Groq } from 'groq-sdk';
 
-const apiKey = import.meta.env.VITE_cle_groq;
+const apiKey = "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";
 
 export default async function IAGROQ({ rawUserInput, setReponsechat }) {
     const groq = new Groq({
